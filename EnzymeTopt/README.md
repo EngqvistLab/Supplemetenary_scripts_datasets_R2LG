@@ -12,3 +12,13 @@ Incase of no OGT available, `nan` is used.
 
 #### Feature extraction with iFeature
 This can be done with script `extract_iFeatures.sh`. 
+
+### Extract UniRep encoding
+This can be done with script `get_unirep_encoding.py`. For the script, one need to download UniRep Repo
+```
+git clone https://github.com/churchlab/UniRep.git
+cd UniRep
+
+# Then download 1900_weights
+mv ../get_unirep_encoding.py .
+```
