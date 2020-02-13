@@ -10,3 +10,14 @@
 * `DeepNN` contains the architecture of deep neural networks used in the prediction of enzyme Topt.
   
 * `Transcriptomics` contains scripts for the transcriptomics data analysis
+
+
+### Python Packages required the versions used in the study
+Python 3.6.7  
+* numpy 1.15.0
+* pandas 0.23.4
+* sklearn 0.20.3
+* seaborn 0.9.0
+* keras 2.2.4 
+* tensorflow 1.10.0
+* hyperopt 0.1.2  
