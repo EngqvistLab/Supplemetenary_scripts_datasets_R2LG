@@ -24,3 +24,6 @@ SVR model,0.547889662217659,0.026893484452659596
 Tree model,0.5355491267446859,0.03453184980344376
 Random forest,0.6021454315518417,0.028483260693779797
 ```
+
+#### Computation time
+Depending on the number of features, the script would take minutes to several hours.
