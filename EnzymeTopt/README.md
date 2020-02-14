@@ -1,5 +1,5 @@
 ### Description
-#### Scripts
+#### Datasets
 `all_enzyme_topts_v1.fasta` contains enzymes sequences with available optimal temperature in BRENDA.
 
 In `cleaned_enzyme_topts_v1.fasta`, those Topts that are marked as 'assay at' in BRENDA were removed. Several other additional steps were applied to clean the Topt data. Check details in the manuscripts. 
