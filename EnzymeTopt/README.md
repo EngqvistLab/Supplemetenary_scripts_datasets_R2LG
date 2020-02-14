@@ -12,7 +12,7 @@ Incase of no OGT available, `nan` is used.
 `>UniprotID ogt=nan;topt=45`
 
 #### Feature extraction with iFeature
-This can be done with script `extract_iFeatures.sh`. 
+This can be done with script `extract_iFeatures.sh`.
 
 #### Extract UniRep encoding
 This can be done with script `get_unirep_encoding.py`. For the script, one need to download UniRep Repo
