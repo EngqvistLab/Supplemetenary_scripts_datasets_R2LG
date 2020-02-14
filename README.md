@@ -12,7 +12,7 @@
 * `Transcriptomics` contains scripts for the transcriptomics data analysis
 
 
-### Python Packages required the versions used in the study
+### Dependencies
 Python 3.6.7  
 * numpy 1.15.0
 * pandas 0.23.4
