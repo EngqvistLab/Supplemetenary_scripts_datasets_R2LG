@@ -1,4 +1,5 @@
-### There are two fasta files in this folder:
+### Description
+#### Scripts
 `all_enzyme_topts_v1.fasta` contains enzymes sequences with available optimal temperature in BRENDA.
 
 In `cleaned_enzyme_topts_v1.fasta`, those Topts that are marked as 'assay at' in BRENDA were removed. Several other additional steps were applied to clean the Topt data. Check details in the manuscripts. 
@@ -10,10 +11,10 @@ in which ogt is the optimal growth temperature of the enzyme source organism and
 Incase of no OGT available, `nan` is used.
 `>UniprotID ogt=nan;topt=45`
 
-### Feature extraction with iFeature
+#### Feature extraction with iFeature
 This can be done with script `extract_iFeatures.sh`. 
 
-### Extract UniRep encoding
+#### Extract UniRep encoding
 This can be done with script `get_unirep_encoding.py`. For the script, one need to download UniRep Repo
 ```
 git clone https://github.com/churchlab/UniRep.git
