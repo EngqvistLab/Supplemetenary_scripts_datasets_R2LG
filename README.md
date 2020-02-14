@@ -1,4 +1,4 @@
-### Description:
+### Description
 * `MonteCarloSimulation` contains the script for Monte Carlo simulations in Figure 2.
   
 * `EvaluateClassicalModels` contains the script to evaluate the performance of six different classical regression models on a given dataset. This script was used in the enzyme Topt prediction section.
