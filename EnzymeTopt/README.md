@@ -1,5 +1,5 @@
 ### Description
-This folder contains all data needed to carry out the Topt analysis (Figure 3). The protein sequences were either used for feature-extraction using IFeature, for extracting embeddints with UniRep, or directly for training a deep NN.
+This folder contains all data needed to carry out the Topt analysis (Figure 3). The protein sequences were either used for feature-extraction using IFeature, for extracting embeddings with UniRep, or directly for training a deep NN.
 
 #### Datasets
 `all_enzyme_topts_v1.fasta` contains enzymes sequences with available optimal temperature in BRENDA.

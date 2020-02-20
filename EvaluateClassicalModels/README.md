@@ -1,11 +1,12 @@
 ### Description
-This script evaluates six
+This script evaluates six classical machine learning algorithms on feature-sets obtained for protein sequences in the Topt dataset.
+
 #### Usage:  
 ```
 python run_model_evaluation.py infile.csv outdir
 ```
 
-`infile.csv` is an input comma-sperated file with first column as index and last column is the target column. Other columns are the features. The script will firstly standardize each column and then test the performance of six different regression models via a nested cross validation approach. Those six models are:
+The scripts rely on an input file `infile.csv`, which should be comma-separated with first column as index and last column is the target column, i.e. the response variable (Topt). Other columns are the features. Depending on the analysis being carried out these will be from iFeature or UniRep embeddings. The file is not provided here due to space constraints, but can easily be generated with scripts and data in the `EnzymeTopt` folder. The script will firstly standardize each column and then test the performance of six different regression models via a nested cross validation approach. Those six models are:
 
 ```python
 sklearn.linear_model.LinearRegression
@@ -16,7 +17,7 @@ sklearn.svm.SVR
 sklearn.ensemble.RandomForestRegressor
 ```
 
-`outdir` is the directory where output file will be created. The name of the outputfile is `infile.out`. It is a csv file contains the mean and standard deviation of R2 score in the cross validation, for example:
+`outdir` should be specified as the directory where output file will be created. The name of the outputfile is `infile.out`. It is a csv file contains the mean and standard deviation of R2 score in the cross validation, for example:
 ```
 model,mean,std
 Linear model,0.5606470243036312,0.05182762180825625
