@@ -21,7 +21,9 @@ UniRep embeddings can be obtained by running the script `get_unirep_encoding.py`
 ```
 git clone https://github.com/churchlab/UniRep.git
 cd UniRep
-
-# Then download 1900_weights according to the instructions in that repository
 mv ../get_unirep_encoding.py .
+```
+Then download 1900_weights according to the instructions in UniRep repository
+```
+python get_unirep_encoding.py 
 ```
