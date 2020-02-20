@@ -68,7 +68,7 @@ def svr():
                 'C':np.logspace(-5,10,num=16,base=2.0),
                 'epsilon':[0,0.01,0.1,0.5,1.0,2.0,4.0]
                 }
-    svr = svm.SVR(kernel='rbf')
+    svr = svm.SVR(kernel='rbf', gamma='auto')
     model = GridSearchCV(svr,parameters,n_jobs=cpu_count(),cv=3)
     return model
 
