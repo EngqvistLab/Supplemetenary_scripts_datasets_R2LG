@@ -1,11 +1,12 @@
 ### Description
-
+This script evaluates six
 #### Usage:  
 ```
 python run_model_evaluation.py infile.csv outdir
 ```
 
 `infile.csv` is an input comma-sperated file with first column as index and last column is the target column. Other columns are the features. The script will firstly standardize each column and then test the performance of six different regression models via a nested cross validation approach. Those six models are:
+
 ```python
 sklearn.linear_model.LinearRegression
 sklearn.linear_model.BayesianRidge
