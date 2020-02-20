@@ -17,7 +17,7 @@ In case that no OGT is available, `nan` is used.
 iFeature features can be obtained with the script `extract_iFeatures.sh`. The script automatically downloads and runs code from the iFeatures repository https://github.com/Superzchen/iFeature.git.
 
 #### Extract UniRep encoding
-UniRep embeddings can be obtained by running the script `get_unirep_encoding.py`. For the script, one need to first download UniRep Repository and 1900_weights according to the instructions in UniRep repository.Then run
+UniRep embeddings can be obtained by running the script `get_unirep_encoding.py`. For the script, one need to first download UniRep Repository and 1900_weights according to the instructions in UniRep repository.
 ```
 git clone https://github.com/churchlab/UniRep.git
 cd UniRep
