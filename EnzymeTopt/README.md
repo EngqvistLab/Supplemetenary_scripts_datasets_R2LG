@@ -25,5 +25,5 @@ mv ../get_unirep_encoding.py .
 ```
 Then download 1900_weights according to the instructions in UniRep repository
 ```
-python get_unirep_encoding.py in.fasta
+python get_unirep_encoding.py ../all_enzyme_topts_v1.fasta
 ```
