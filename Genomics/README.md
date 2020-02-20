@@ -11,3 +11,10 @@ All input data is available in the `data` folder.
 `machine_learning_PA_on_phenome.py`: Evaluates the performance of a random forest regressor on predicting phenome from gene presence/absecne table.
 
 The results from above two scripts can be visualized with the jupyter notebook `visualize_results_PA_CNA_on_35_phenotypes.ipynb`
+
+To repeat the analysis presented in the paper, run 
+```
+python machine_learning_CNV_on_phenome.py
+python machine_learning_PA_on_phenome.py
+```
+Then visualize results with `visualize_results_PA_CNA_on_35_phenotypes.ipynb`
