@@ -1,5 +1,5 @@
 # Performance of regression models as a function of experiment noise
-This repository contains code needed to replicate
+This repository contains code and data (or link to needed data) needed to replicate the analysis carried out in the pre-print by  Li G, et al, 2019 (https://arxiv.org/abs/1912.08141).
 
 ### Description
 The different parts of the analysis is broken down into separate folders:
@@ -28,7 +28,7 @@ keras 2.2.4
 tensorflow 1.10.0
 hyperopt 0.1.2  
 ```
-The respo was tested with Python 3.6.7  
+The repository was tested with Python 3.6.7.
 
 ### Hardware
 Scripts of `MonteCarloSimulation` and `Transcriptomics` can be performed with PC with linux or Mac OS. Other scripts need to be done with a computer cluster. All deep learning related analysis (UniRep representation and `DeepNN`) need GPU platform.

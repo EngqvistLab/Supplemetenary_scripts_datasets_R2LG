@@ -1,5 +1,5 @@
 ### Description
-This folder contains all code and data requierd for the *S. cerevisiae* genomics analysis (Figure 5).
+This folder contains all code and data required for the *S. cerevisiae* genomics analysis (Figure 5).
 
 #### Datasets
 All input data is available in the `data` folder.
