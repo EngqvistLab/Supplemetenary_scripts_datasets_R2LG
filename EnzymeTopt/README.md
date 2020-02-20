@@ -24,3 +24,4 @@ cd UniRep
 mv ../get_unirep_encoding.py .
 python get_unirep_encoding.py ../all_enzyme_topts_v1.fasta
 ```
+#### Add the response variable Topt as the last column in the resulted feature files. An example `example.csv`
