@@ -31,6 +31,6 @@ SVR model,0.41176550406832035,0.030592246191507147
 Tree model,0.14319793875641068,0.04974297243407614
 Random forest,0.37394048308971517,0.033674531456666434
 ```
-In which, `mean` and `std` are the average and standard deviation of $ R^{2} $ scores from five-fold cross-validation.
+In which, `mean` and `std` are the average and standard deviation of R2 scores from five-fold cross-validation.
 #### Computation time
 Depending on the number of features, the script would take minutes to several hours.
