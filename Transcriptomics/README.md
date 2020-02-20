@@ -9,5 +9,5 @@ scerevisiae.rsd3.npz
 scerevisiae_accessions.tsv
 scerevisiae_tpm_full_cut5.csv
 ```
-#### Datasets
+#### Usage
 All analysis was done with the jupyter notebook `Script_expression_data.ipynb`. Please see code and comments in this file for further details.
