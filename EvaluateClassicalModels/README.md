@@ -3,7 +3,7 @@ This script evaluates six classical machine learning algorithms on feature-sets 
 
 
 #### Datasets
-The scripts rely on an input file `infile.csv`, which should be comma-separated with first column as index and last column is the target column, i.e. the response variable (Topt). Other columns are the features. Depending on the analysis being carried out these will be from iFeature or UniRep embeddings. The file used for analysis in the paper is *not* provided here due to space constraints, but can easily be generated with scripts and data in the `EnzymeTopt` folder. However, to allow users to quickly test this code we provide a "dummmy" `infile.csv` file containing only a small number of records. To repeat the analysis in the paper the dummy file provided here will need to be *replaced* using scripts and data in the `EnzymeTopt` folder.
+The scripts rely on an input file `infile.csv`, which should be comma-separated with first column as index and last column is the target column, i.e. the response variable (Topt). Other columns are the features. Depending on the analysis being carried out these will be from iFeature or UniRep embeddings. The file used for analysis in the paper is *not* provided here due to space constraints, but can easily be generated with scripts and data in the `EnzymeTopt` folder. However, to allow users to quickly test this code we provide a "dummmy" `infile.csv` file containing only a small number of records. **To repeat the analysis in the paper the dummy file provided here will need to be *replaced* using scripts and data in the `EnzymeTopt` folder.**
 
 #### Usage
 ```
